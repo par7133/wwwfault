@@ -1,2 +1,2 @@
 # wwwfault
-wwwfault: your url validator
+your url validator

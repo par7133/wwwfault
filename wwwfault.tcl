@@ -76,7 +76,7 @@ proc scanUrls {} {
                         } else {
                           set cmdslbl($intli) "$newurl valid"
 			}
-                        .fr.lb insert end $cmdslbl($intli)
+                        .fr.lb insert 0 $cmdslbl($intli)
 
 			incr intli
                         update			

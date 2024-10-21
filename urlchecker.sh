@@ -7,6 +7,8 @@ ini_set('display_startup_errors',0);
 ini_set('display_errors',0);  
 ini_set('log_errors',0); 
 
+ini_set('allow_url_fopen', "on");
+
 $argv0 = $argv[0];
 $argv1 = $argv[1]??null;
 

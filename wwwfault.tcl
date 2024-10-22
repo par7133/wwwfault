@@ -64,7 +64,7 @@ proc scanUrls {} {
 			
                         set str [string trim $str]
 
-			set cmdpath urlchecker.sh
+			set cmdpath [pwd]/urlchecker.sh
                         set newurl $str
 
 			set cmds($intli) $cmdpath
